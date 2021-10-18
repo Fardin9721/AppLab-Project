@@ -1,15 +1,21 @@
 .section_padding{
     padding: 50px 0;
 }
-.btn{
+.btn {
     border: navajowhite;
     background-color: #2500f9;
     color: #fff;
-    padding: 13px 40px;
+    padding: 13px 28px;
     border-radius: 22px;
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
+
+font-family: 'Poppins', sans-serif;
+
+
+
 /* Start Header Section */
 .header_area{}
 .hd_1{}
@@ -21,10 +27,16 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0;
 }
-.navber ul li a{
+.navber ul li a {
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #242f51;
+    font-family: 'Poppins', sans-serif;
+}
+.navber ul li a:hover {
+    color: #FCAE61;
 }
 .header_btn {
     display: flex;
