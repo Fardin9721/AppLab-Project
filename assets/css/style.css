@@ -12,17 +12,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-font-family: 'Poppins', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
 
 
 
 /* Start Header Section */
-.header_area{}
-.hd_1{}
-.logo{}
-.logo img{}
-.manu{}
-.navber{/*! display: flex; *//*! justify-content: center; *//*! text-align: center; */}
 .navber ul{
     display: flex;
     justify-content: space-between;
@@ -41,7 +35,5 @@ font-family: 'Poppins', sans-serif;
 .header_btn {
     display: flex;
     justify-content: end;
-}
-.header_btn button {
 }
 /* End Header Section */
