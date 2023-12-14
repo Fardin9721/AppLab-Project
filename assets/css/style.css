@@ -1,10 +1,6 @@
-*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
-/* h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-} */
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; list-style: none; text-decoration: none;}
 .container{
-    max-width: 1366px;
+    max-width: 1320px;
     margin: auto;
 }
 .btn{
@@ -28,8 +24,6 @@
     align-items: center;
     margin-top: 20px;
 }
-.nav_logo{}
-.nav_navber{}
 .nav_navber ul{
     display: flex;
     align-items: center;
@@ -43,6 +37,31 @@
     font-size: 16px;
     color: #242f51;
 }
-.nav_navber ul button{}
-.baner_area{}
+/* Slidbar */
+.mlb_logo{
+    color: #FCAE61;
+    font-size: 30px;
+    display: none;
+}
+.nav_sidebar{
+    display: none;
+    width: 100%;
+    background-color:#9babab;
+    height: 1000px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 50px 20px;
+}
+.nav_sidebar ul{
+    display: flex;
+    flex-direction: column;
+}
+.nav_sidebar ul li{}
+.nav_sidebar ul li a{
+    color: #fff;
+    padding: 20px 20px;
+    display: inline-block;
+}
+.baner_area{} 
 /* End Header area */
