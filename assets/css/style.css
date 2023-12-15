@@ -17,13 +17,17 @@
 /* Start Header area */
 .header_area{
     margin-top: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 .navbar_area{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    padding: 20px 0;
 }
+.sticky{}
 .nav_navber ul{
     display: flex;
     align-items: center;
@@ -42,6 +46,9 @@
     color: #FCAE61;
     font-size: 30px;
     display: none;
+    border: 2px solid #242f51;
+    border-radius: 6px;
+    padding: 2px 8px;
 }
 .nav_sidebar{
     display: none;
@@ -57,11 +64,55 @@
     display: flex;
     flex-direction: column;
 }
-.nav_sidebar ul li{}
 .nav_sidebar ul li a{
     color: #fff;
     padding: 20px 20px;
     display: inline-block;
 }
-.baner_area{} 
+.nav_sidebar i{
+    color: black;
+    font-size: 20px;
+}
 /* End Header area */
+
+/* Start Baner Area */
+.baner_area{
+    background: url(../images/Banar_BG.png) no-repeat bottom;
+}
+.baner_area img{}
+.bnr_bg_img{}
+.bnr_area{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/bnr_bg_o.png);
+}
+.bnr_ion_text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #e2eaed;
+    border-radius: 16px;
+    width: 358px;
+    margin-top: 260px;
+}
+.bnr_ion_text p{
+    margin-left: 10px;
+    color: #242f51;
+    font-size: 18px;
+}
+.baner_text h1{
+    color: #242f51;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+.baner_text p{
+    color: #616368;
+    font-size: 18px;
+}
+.baner_pic {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/* End Baner Area */

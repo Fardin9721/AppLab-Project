@@ -15,4 +15,21 @@
     .container{
         max-width: 95%;
     }
+    .bnr_area{
+        display: block;
+    }
+    .bnr_ion_text{
+        margin-top: 10px;
+    }
+    .baner_text h1 {
+        font-size: 45px;
+        margin-top: 28px;
+        margin-bottom: 40px;
+    }
+    .baner_text {
+        margin: 0 17px;
+    }
+    .header_area{
+        margin-top: 10px;
+    }
 }

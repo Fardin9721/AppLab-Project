@@ -9,52 +9,71 @@
     <title>AppLab</title>
     <!-- icon -->
     <link rel="shortcut icon" href="assets/images/">
+    <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Custom sass -->
+    <link rel="stylesheet" href="assets/scss/demo.css">
 
 </head>
 <body>
   <!-- Start Header area -->
   <header class="header_area">
     <div class="container">
-      <div class="navbar_area">
-        <div class="nav_logo">
-          <img src="assets/images/shortcut icon.png" alt="">
+        <div class="navbar_area sticky " id="home">
+          <div class="nav_logo">
+            <a href="#"><img src="assets/images/shortcut icon.png" alt=""></a>
+          </div>
+          <!-- Mobil menu logo -->
+          <a onclick=showSidebar() href="#"class="mlb_logo"><i class="fa-solid fa-bars"></i></a>
+          <div class="nav_sidebar">
+            <ul>
+              <li onclick=hideSidebar()><a href="#home"><i class="fa-solid fa-x"></i></a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#home">Kye Fuatures</a></li>
+              <li><a href="#home">Pricing</a></li>
+              <li><a href="#home">Testiminial</a></li>
+              <li><a href="#home">FAQ</a></li>
+              <li><a href="#home"><button class="btn">Try for free</button></a></li>
+            </ul>
+          </div>
+          <div class="nav_navber d-none">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#home">Kye Fuatures</a></li>
+              <li><a href="#home">Pricing</a></li>
+              <li><a href="#home">Testiminial</a></li>
+              <li><a href="#home">FAQ</a></li>
+              <li><a href="#home"><button class="btn">Try for free</button></a></li>
+            </ul>
+          </div>
         </div>
-        <!-- Mobil menu logo -->
-        <a onclick=showSidebar() href="#"class="mlb_logo"><i class="fa-solid fa-bars"></i></a>
-        <div class="nav_sidebar">
-          <ul>
-            <li onclick=hideSidebar()><a href="#home">X</a></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#home">Kye Fuatures</a></li>
-            <li><a href="#home">Pricing</a></li>
-            <li><a href="#home">Testiminial</a></li>
-            <li><a href="#home">FAQ</a></li>
-            <li><a href="#home"><button class="btn">Try for free</button></a></li>
-            
-          </ul>
-        </div>
-        <div class="nav_navber d-none">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#home">Kye Fuatures</a></li>
-            <li><a href="#home">Pricing</a></li>
-            <li><a href="#home">Testiminial</a></li>
-            <li><a href="#home">FAQ</a></li>
-            <li><a href="#home"><button class="btn">Try for free</button></a></li>
-            
-          </ul>
-        </div>
-        
       </div>
-      <div class="baner_area"></div>
     </div>
   </header>
   <!-- End Header area -->
+
+  <!-- Start Baner area -->
+  <section class="baner_area">
+    <!-- <img class="bnr_bg_img" src="assets/images/Banar_BG.png" alt=""> -->
+    <div class="container bnr_area">
+      <div class="baner_text">
+        <div class="bnr_ion_text">
+          <img src="assets/images/bnr_p_icon.png" alt="">
+          <p>#1 Editiors Choice App of 2020</p>
+        </div>
+        <h1>Best app for your <br> modern lifestyle</h1>
+        <p>Increase productivity with a simple to-do app. app for <br>managing your personal budgets.</p>
+      </div>
+      <div class="baner_pic">
+        <img src="assets/images/mobil.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End Baner area -->
 
 
 
