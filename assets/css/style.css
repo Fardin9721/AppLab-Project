@@ -27,7 +27,6 @@
     align-items: center;
     padding: 20px 0;
 }
-.sticky{}
 .nav_navber ul{
     display: flex;
     align-items: center;
@@ -79,8 +78,6 @@
 .baner_area{
     background: url(../images/Banar_BG.png) no-repeat bottom;
 }
-.baner_area img{}
-.bnr_bg_img{}
 .bnr_area{
     display: flex;
     justify-content: space-around;
