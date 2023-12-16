@@ -3,6 +3,12 @@
     max-width: 1320px;
     margin: auto;
 }
+.section_padding{
+    padding: 50px 0;
+}
+.mb{
+    margin-bottom: 10px;
+}
 .btn{
     background-color: #2500f9;
     color: #fff;
@@ -10,6 +16,7 @@
     font-weight: 700;
     padding: 10px 20px;
     border-radius: 24px;
+    border: none;
 }
 
 
@@ -108,8 +115,28 @@
     color: #616368;
     font-size: 18px;
 }
+.bnr_btn_area{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.bnr_btn_area p{
+    color: blue;
+    margin-left:20px ;
+}
 .baner_pic {
     margin-top: 30px;
     margin-bottom: 60px;
 }
 /* End Baner Area */
+
+/* Start like area */
+.like_text{
+    text-align: center;
+}
+.like_icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* End like area */
