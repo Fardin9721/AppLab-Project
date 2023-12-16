@@ -3,11 +3,22 @@
     max-width: 1320px;
     margin: auto;
 }
-.section_padding{
-    padding: 50px 0;
+.container_lg{
+    max-width: 1500px;
+    margin:auto;
 }
-.mb{
-    margin-bottom: 10px;
+.section_padding{
+    padding: 100px 0;
+}
+.sec_her{
+    color: #242f51;
+    font-size: 36px;
+    font-weight: 700;
+}
+.sec_pra{
+    font-size: 16px;
+    color: #616368;
+    line-height: 1.5;
 }
 .btn{
     background-color: #2500f9;
@@ -46,6 +57,9 @@
     padding: 10px 20px;
     font-size: 16px;
     color: #242f51;
+}
+.nav_navber ul li a:hover{
+    color: #FCAE61;
 }
 /* Slidbar */
 .mlb_logo{
@@ -118,11 +132,15 @@
 .bnr_btn_area{
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .bnr_btn_area p{
-    color: blue;
+    color: #2500f9;
+    font-size: 16px;
     margin-left:20px ;
+}
+.bnr_btn_area button{
+    padding: 20px 30px;
 }
 .baner_pic {
     margin-top: 30px;
@@ -134,9 +152,99 @@
 .like_text{
     text-align: center;
 }
+.like_text p{
+    margin-bottom: 30px;
+    color: #242f51;
+}
 .like_icon{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 /* End like area */
+
+/* Start app area */
+.app_item{
+    display: flex;
+}
+.app_text h3{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.app_text {
+    margin-left: 120px;
+}
+.card_area {
+    margin-top: 90px;
+}
+.app_card_1{
+    display: flex;
+    margin-bottom: 60px;
+}
+.app_card_text {
+    margin-left: 30px;
+}
+.app_card_text h4{
+    color: #f55767;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+span.cr2 {
+    color: #2563ff;
+}
+span {
+    color: #40975f;
+}
+
+/* End app area */
+
+/* start smart area */
+.smart_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.smart_text h3{
+    font-size: 40px;
+    margin-left: 90px;
+}
+.smart_text h3:after{
+    content: '';
+    background: #242f51;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 589px;
+}
+/* end smart area */
+
+/* start effect area */
+.effect{
+    display: flex;
+    justify-content: space-around;
+}
+.effect_box h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f55767;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+/* end effect area */
+ 
+/* start built area */
+.built_area{
+    display: flex;
+    align-items: center;
+}
+.built_text{
+    margin-left: 140px;
+}
+.built_text p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/* End built area */

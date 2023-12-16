@@ -37,4 +37,21 @@
     .header_area{
         margin-top: 10px;
     }
+    .like_icon{
+        display: block;
+        text-align: center;
+    }
+    .mb{
+        margin-bottom: 30px;
+    }
+    .section_padding {
+        padding: 35px 0;
+    }
+    .app_item {
+        display: block;
+    }
+    .app_text {
+        margin-left: 10px;
+    }
+    
 }
