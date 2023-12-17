@@ -20,6 +20,10 @@
     color: #616368;
     line-height: 1.5;
 }
+.card_hr{
+    font-size: 20px;
+    font-weight: 700;
+}
 .btn{
     background-color: #2500f9;
     color: #fff;
@@ -217,7 +221,7 @@ span {
     height: 100%;
     position: absolute;
     top: 0;
-    right: 589px;
+    right: 530px;
 }
 /* end smart area */
 
@@ -248,3 +252,38 @@ span {
     margin-bottom: 40px;
 }
 /* End built area */
+
+/* Start service area */
+.service_text{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.service_text p{
+    margin-top: 20px;
+}
+.service_card_area-1{
+    display: flex;
+    justify-content: space-around;
+}
+.service_text h4 {
+    margin-bottom: 30px;
+}
+.service_card{
+    text-align: center;
+    margin-bottom: 60px;
+}
+h4.card_hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* End service area */
+
+/* Start features area */
+.features_area{
+    display: flex;
+    justify-content: space-between;
+}
+.features_text h4{
+    margin-bottom: 30px;
+}
+/* End features area */

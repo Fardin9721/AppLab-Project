@@ -42,7 +42,7 @@
         text-align: center;
     }
     .mb{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .section_padding {
         padding: 35px 0;
@@ -52,6 +52,40 @@
     }
     .app_text {
         margin-left: 10px;
+    }
+    .smart_text {
+        display: block;
+        text-align: center;
+    }
+    .smart_text h3 {
+        font-size: 40px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .effect{
+        display: block;
+        text-align: center;
+    }
+    .effect_box{
+        margin-bottom: 50px;
+    }
+    .built_area {
+        display: block;
+    }
+    .built_text {
+        margin: 50px 10px;
+    }
+    .built_img img{
+        width: 100%;
+    }
+    .app_img img{
+        width: 100%;
+    }
+    .sec_her {
+        font-size: 30px;
+    }
+    .service_card_area-1{
+        display: block;
     }
     
 }
