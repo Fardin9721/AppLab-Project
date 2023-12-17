@@ -87,5 +87,25 @@
     .service_card_area-1{
         display: block;
     }
-    
+    .features_area{
+        display: block;
+    }
+    .features_text {
+        text-align: center;
+    }
+    .fra_card {
+        text-align: center;
+    }
+    .features_text button {
+        margin: 60px 0;
+    }
+    .price_day {
+        width: 70%;
+    }
+    .price_sub{
+        display: block;
+    }
+    .sub.pic24 {
+        margin-bottom: 90px;
+    }
 }

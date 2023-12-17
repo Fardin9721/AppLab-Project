@@ -282,8 +282,99 @@ h4.card_hr {
 .features_area{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .features_text h4{
     margin-bottom: 30px;
 }
+.features_text p{
+    margin-bottom: 60px;
+}
+.fra_card {
+    text-align: start;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.fratures_card {
+    margin-bottom: -50px;
+}
+.features_text button{
+    padding: 22px 60px;
+}
+.features_picture img{
+    width: 100%;
+}
 /* End features area */
+
+/* start price area */
+.price_text{
+    text-align: center;
+}
+.price_text p{
+    margin-top: 40px;
+}
+.price_card {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.price_day {
+    width: 22%;
+    border: 2px solid #ebebeb;
+    border-radius: 35px;
+    padding: 5px 5px;
+}
+.price_day button{
+    padding: 16px 33px;
+}
+.price_day .b2{
+    color: #616368;
+    background-color: #fff;
+}
+.price_sub {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.sub_picr h2{
+    font-size: 60px;
+    color: #242f51;
+    font-weight: 700;
+}
+.sub_picr span{
+    font-size: 18px;
+    color: #999ca5;
+}
+.sub{
+    text-align: center;
+    margin: 0 30px;
+}
+.sub_picr{
+    background-color: #f4f7f9;
+}
+.sub h2{
+    padding-top: 60px;
+}
+.sub h6 {
+    padding: 20px 0;
+}
+.sub h4{
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 0 110px;
+}
+.sub button{
+    padding: 16px 36px;
+}
+.sub_dtl p{
+    color: #2500f9;
+    padding: 20px 0;
+}
+.pic23 {
+    margin-top: -16px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+/* End price area */
