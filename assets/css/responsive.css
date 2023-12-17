@@ -34,6 +34,9 @@
     .baner_text {
         margin: 0 17px;
     }
+    .baner_pic img {
+        width: 100%;
+    }
     .header_area{
         margin-top: 10px;
     }
