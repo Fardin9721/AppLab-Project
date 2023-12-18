@@ -378,3 +378,30 @@ h4.card_hr {
     border-radius: 5px;
 }
 /* End price area */
+
+/* start client area */
+.client_area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.client_img{
+    width: 50%;
+}
+.client_img img{
+    width: 100%;
+}
+.clep{
+    margin: 25px 0;
+}
+.client_icons i{
+    color: #ffcc00;
+    font-size: 20px;
+}
+.client_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+/* End client area */

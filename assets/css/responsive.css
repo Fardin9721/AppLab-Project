@@ -111,4 +111,11 @@
     .sub.pic24 {
         margin-bottom: 90px;
     }
+    .client_area{
+        display: block;
+    }
+    .client_img {
+        width: 100%;
+        margin-bottom: 60px;
+    }
 }
