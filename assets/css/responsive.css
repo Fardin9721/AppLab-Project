@@ -118,4 +118,37 @@
         width: 100%;
         margin-bottom: 60px;
     }
+    .client_img img {
+        width: 100%;
+    }
+    .info_ceo {
+        margin-left: 32px;
+        margin-right: 25px;
+    }
+    .one_table {
+        padding: 1px 20px;
+        padding-bottom: 50px;
+    }
+    .tow_table {
+        padding: 1px 20px;
+    }
+    .dowlod{
+        display: block;
+    }
+    .doun_img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .footer_nav ul {
+        display: block;
+        text-align: center;
+    }
+    .footer_nav ul li a{
+        display: inline-block;
+    }
+}
+@media (max-width:375px){
+    .price_day {
+        width: 80%;
+    }
 }

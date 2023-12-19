@@ -1,5 +1,37 @@
-$test-color:#cc2424;
-
-// .nav_navber {
-//     background: $test-color;
-// }
+.footer_nav{
+    margin:50px 0;
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            // display: inline;
+            a{
+                color: #fff;
+                padding: 10px 20px;
+                transition: .4s;
+            }
+            a:hover{
+                color: #666363;
+            }
+        }
+    }
+}
+.footer_icon{
+    i{
+        color: #273043;
+        font-size: 40px;
+        padding: 10px 20px;
+        transition: .4s;
+    }
+    i:hover{
+        color: #7f8594;
+    }
+}
+.footer_up{
+    text-align: center;
+    p{
+        margin-top: 50px;
+        color: #fff;
+        font-size: 12px;
+    }
+}

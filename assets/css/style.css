@@ -400,8 +400,102 @@ h4.card_hr {
 }
 .client_info{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     margin-top: 40px;
 }
+.info_ceo {
+    margin-left: 32px;
+    margin-right: 140px;
+}
+.client_info i {
+    color: #ebebeb;
+    font-size: 28px;
+    padding: 8px 10px;
+    border: 2px solid #ebebeb;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    margin-right: 8px;
+}
 /* End client area */
+
+/* start asked area */
+.asked_text{
+    text-align: center;
+}
+.asked_table {
+    margin-top: 100px;
+}
+.one_table {
+    width: 80%;
+    margin: auto;
+    background-color: #F5F7FA;
+    padding: 20px 80px;
+    padding-bottom: 50px;
+}
+.tow_table {
+    width: 80%;
+    margin: auto;
+    background-color: #F5F7FA;
+    padding: 1px 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End asked area */
+
+/* Start download area */
+.download_area {
+    border-top: 2px solid #F5F7FA;
+    padding-top: 20px;
+}
+.dowlod{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.doun_text h2{
+    color: #242f51;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.doun_text p{
+    margin-bottom: 50px;
+}
+.srcone {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 14px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.down_src {
+    display: flex;
+}
+.srcone i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.src_text p{
+    margin-bottom:2px;
+}
+.src_text h3{
+    font-size: 20px;
+}
+.doun_img {
+    width: 50%;
+}
+.doun_img img{
+    width: 100%;
+}
+/* End download area */
+
+/* Start footer area */
+.fooer_area{
+    background-color: #09142E;
+}
+/* End footer area */
