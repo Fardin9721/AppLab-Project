@@ -42,6 +42,7 @@
     position: sticky;
     top: 0;
     background-color: #fff;
+    z-index: 9;
 }
 .navbar_area{
     display: flex;
@@ -423,26 +424,46 @@ h4.card_hr {
 /* start asked area */
 .asked_text{
     text-align: center;
+    margin-bottom: 100px;
 }
 .asked_table {
-    margin-top: 100px;
-}
-.one_table {
-    width: 80%;
     margin: auto;
-    background-color: #F5F7FA;
-    padding: 20px 80px;
-    padding-bottom: 50px;
-}
-.tow_table {
     width: 80%;
-    margin: auto;
+}
+.tableBtnn {
+    position: relative;
+    border: none;
     background-color: #F5F7FA;
-    padding: 1px 80px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    padding: 26px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.tableBtnn::after{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+.tableSection {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.active .tableSection{
+    height: auto;
+    background-color: #F5F7FA;
+    padding: 20px 52px;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.active .tableBtnn::after{
+    content: '-';
 }
 /* End asked area */
 
